@@ -67,7 +67,15 @@ body {
 .menu-toggler:checked ~ ul .menu-item:nth-child(6) {
     transform: rotate(300deg) translateX(-110px);
 }
- 
+/*
+.menu-toggler:checked ~ ul .menu-item:nth-child(7) {
+    transform: rotate(270deg) translateX(-90px);
+}
+
+.menu-toggler:checked ~ ul .menu-item:nth-child(8) {
+    transform: rotate(315deg) translateX(-90px);
+}
+*/
 .menu-toggler:checked ~ ul .menu-item a {
     pointer-events: auto;
 }
@@ -151,13 +159,13 @@ body {
     display: block;
     width: inherit;
     height: inherit;
-    line-height: 80px;
+    line-height: 80px;  /*  60px  */
     color: rgba(255, 255, 255, 0.7);
     background: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     text-align: center;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 50px;  /*  34px  */
     pointer-events: none;
     transition: 0.2s;
 }
@@ -166,6 +174,6 @@ body {
     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
     color: white;
     background: rgba(255, 255, 255, 0.3);
-    font-size: 44.44px;
+    font-size: 44.44px;  /*  37px  */
 }
  
